@@ -1,0 +1,126 @@
+.container {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+.content {
+    overflow: auto;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+}
+li:hover {
+    cursor: pointer;
+}
+.right-navbar {
+    /* text-align: right; */
+    float: right;
+    
+}
+#title {
+    color: rgb(97, 3, 136);
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn, .btn a {
+    background-color: rgb(97, 3, 136);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    width: fit-content;
+    /* margin-right: 200px; */
+}
+.btn a {
+    text-decoration: none;
+}
+.left-content {
+    width: 40%;
+    float: left;
+    /* margin: auto; */
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.right-content {
+    width: 30%;
+    float: right;
+    margin-top: 10%;
+    /* padding-right: 200px; */
+    /* box-sizing: border-box; */
+    
+}
+.right-content img {
+    width: 100%;
+    height: auto;
+}
+.paragraph {
+    text-align: center;
+    /* margin: auto; */
+    margin-top: 100px;
+}
+table, tr {
+    width: 100%;
+    display: inline-block;
+    /* text-align: center; */
+}
+.details-icons {
+    display: inline-block;
+    margin-top: 50px;
+}
+.details-icon {
+    /* width: 49%; */
+  text-align: center;
+  display: inline-block;
+  padding: 0 143px;
+}
+.details-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.details-titles, .details-paragraphs {
+    text-align: center;
+}
+.link {
+    font-weight: bold;
+    text-decoration: none;
+}
+.advertise {
+    margin: 100px auto;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(39, 14, 65);
+    color: white;
+    padding: 30px 0;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.advertise .btn {
+    background-color: rgb(195, 88, 195);
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(236, 238, 199);
+    padding: 20px 0 20px 200px;
+    /* text-align: center; */
+    margin-top: 50px;
+}
+
+.footer-title {
+    display: inline-block;
+    margin: 8px 0;
+}
+
+.footer-line {
+    padding: 0;
+}
+
+.footer .footer-line a {
+    display: inline-block;
+    padding: 0 5px;
+}
